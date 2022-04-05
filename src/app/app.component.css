@@ -1,0 +1,32 @@
+.container {
+  height: 100%;
+}
+
+.mat-drawer{
+  width: 65px;
+}
+
+#flex-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logo {
+  margin: 5px auto;
+}
+
+#menu,
+#bottom-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu {
+  justify-content: flex-start;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: stretch;
+}
